@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#232323"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/supermarket"
+            android:id="@+id/text_show_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/contact_delete"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_detail"
+            android:fontFamily="@font/supermarket"
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="คุณต้องการลบข้อมูลนี้หรือไม่ ??"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:fontFamily="@font/supermarket"
+                android:id="@+id/btn_OK"
+                android:background="#ef0404"
+                android:layout_weight="1"
+                android:text="ตกลง"
+                android:drawablePadding="20dp"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:fontFamily="@font/supermarket"
+                android:drawablePadding="50dp"
+                android:id="@+id/btn_CANCEL"
+                android:background="#fff"
+                android:text="ยกเลิก"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_alert" />
+</RelativeLayout>

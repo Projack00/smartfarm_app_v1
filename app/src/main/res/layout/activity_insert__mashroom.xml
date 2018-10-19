@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_farming"
+    tools:context=".page.Insert_Mashroom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/supermarket"
+            android:textSize="20dp"
+            android:text="ชนิดเห็ด"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/Edit_Name_Mashroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/supermarket"
+            android:hint="ระบุชนิดของเห็ด"
+            android:textColor="#FFFFFF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/tmp"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/hmd"
+                    android:layout_gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="*ค่าอุณหภูมิต่ำสุด"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+
+                <Spinner
+                    android:id="@+id/Tem-min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"></Spinner>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="*ค่าความชื้นต่ำสุด"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/Humid_Min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"></Spinner>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="*ค่าอุณหภูมิสูงสุด"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/Tem_Max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="*ค่าความชื้นสูงสุด"
+                    android:textColor="#FFFFFF"
+                    android:layout_gravity="center"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/Humid-max"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Insert_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/supermarket"
+            android:text="ตกลง"
+            style="@style/btn_blue"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

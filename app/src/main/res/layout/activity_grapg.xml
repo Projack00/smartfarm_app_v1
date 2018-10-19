@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/bg_farming">
+
+
+
+    <!--<com.jjoe64.graphview.GraphView-->
+        <!--android:id="@+id/graphView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="กราฟแสดงผล"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/supermarket"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="5dp"/>
+
+    <!--<com.jjoe64.graphview.GraphView-->
+        <!--android:id="@+id/graphView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/linechart"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+
+</LinearLayout>

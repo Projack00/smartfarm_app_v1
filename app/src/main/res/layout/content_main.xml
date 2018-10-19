@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/supermarket"
+                android:padding="5dp"
+                android:text="สถานะ : "
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/tempIMG"
+                                android:layout_width="150dp"
+                                android:layout_height="230dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginRight="12dp"
+                                android:src="@drawable/tmp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/supermarket"
+                                android:gravity="center"
+                                android:text="อุณหภูมิ"
+                                android:textColor="#FFFFFF"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/StatusTemp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tempIMG"
+                                android:fontFamily="@font/supermarket"
+                                android:gravity="center"
+                                android:text="===="
+                                android:textColor="#FFFFFF"
+                                android:textSize="50sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/humidIMG"
+                            android:layout_width="150dp"
+                            android:layout_height="230dp"
+                            android:src="@drawable/hmd" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/supermarket"
+                            android:gravity="center"
+                            android:text="ความชื้น"
+                            android:textColor="#FFFFFF"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/StatusHumid"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/humidIMG"
+                            android:fontFamily="@font/supermarket"
+                            android:gravity="center"
+                            android:text="==-=="
+                            android:textColor="#FFFFFF"
+                            android:textSize="50sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/supermarket"
+                android:gravity="center"
+                android:text=" เวลา "
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/btn_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/supermarket"
+                android:gravity="center"
+                android:text="เลือกชนิดเห็ด" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fan" />
+
+                <TextView
+                    android:id="@+id/textFan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="เลือก :"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <Switch
+                    android:id="@+id/FanSwith"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:fontFamily="@font/supermarket"
+                    android:switchMinWidth="56dp"
+                    android:text="Switch1:"
+                    android:textColor="#FFFFFF"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/weter" />
+
+                <TextView
+                    android:id="@+id/textPump"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="เลือก :"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <Switch
+                    android:id="@+id/pump"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/supermarket"
+                    android:switchMinWidth="56dp"
+                    android:text="Switch1:"
+                    android:textColor="#FFFFFF"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/led" />
+
+                <TextView
+                    android:id="@+id/textLED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/supermarket"
+                    android:text="เลือก :"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+
+                <Switch
+                    android:id="@+id/ledSwith"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:fontFamily="@font/supermarket"
+                    android:switchMinWidth="56dp"
+                    android:text="Switch1:"
+                    android:textColor="#FFFFFF"
+                    android:textOff="OFF"
+                    android:textOn="ON" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

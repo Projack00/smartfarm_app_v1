@@ -1,0 +1,319 @@
+{
+  "project_info": {
+    "project_number": "135183078101",
+    "firebase_url": "https://smartfarmdemo-35d26.firebaseio.com",
+    "project_id": "smartfarmdemo-35d26",
+    "storage_bucket": "smartfarmdemo-35d26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:88747ceea70f3675",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.demofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-jiqilqfkkloa4pjch0dhh576sr68beuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.demofirebase",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:fd800544e4043d2a",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.smartfarm_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-qhj8hfhkpeuk9afklvh2un6vh8puck4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.smartfarm_01",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:d6b048c2b04ed0db",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.smartfarm_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-6717or1capq8ffavoi6o7gn4m01e10b4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.smartfarm_02",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:0920b88649e9542b",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.smartfarm_03"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-q79smgfcvv66k9fnb8dttmmnnoltp5ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.smartfarm_03",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:97c3f6238b604055",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.smartfarm_04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-jf1smarfqpvmf6o7giusm7ct0a5ovpjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.smartfarm_04",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:12cf1fd0a587168b",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.smartfarmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-p6e20tcru2ele9q1jg9khrt87i3oduh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.smartfarmdemo",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135183078101:android:b32ea0998b5edd42",
+        "android_client_info": {
+          "package_name": "com.example.kuhas.spinnerdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135183078101-r9ti48240e1fnnvcqi0nmunb58k2ge8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuhas.spinnerdemo",
+            "certificate_hash": "81f6c62bb3041668a1d2da92478adcb12afcd537"
+          }
+        },
+        {
+          "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo3W0CLL4stmAS9L_YIqVV4GSpa6Yep00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135183078101-8u7dgb60vhkm5g87218mpn2ndnt5aquv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
