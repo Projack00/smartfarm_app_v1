@@ -1,4 +1,4 @@
-#Tue Oct 09 10:30:54 ICT 2018
-base.0=/Users/kuhasunyeebaka/Documents/Projack_Wikanda/smartfarm_App-master-20181001T035416Z-001 2/smartfarm_App-master/app/build/intermediates/transforms/dexMerger/debug/5
+#Sat Oct 20 14:20:04 ICT 2018
+base.0=D\:\\project_smartFarm\\smartfarm_app_v1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,21 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kuhasunyeebaka/Documents/Projack_Wikanda/smartfarm_App-master-20181001T035416Z-001 2/smartfarm_App-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "D:\\project_smartFarm\\smartfarm_app_v1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1a9ea1628a93fce37c52045d48b5f9d1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    }
-                },
-                {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/e1a2df2227d63a27c32e30b4311fe811/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\0cfa809f5ab20b3a83bd441a6aa078b7\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -31,6 +20,17 @@
                         "endLines": "39",
                         "endColumns": "12",
                         "endOffsets": "2791"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\1a7598dbeddd5b4e2a44083164f09c0f\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
                     }
                 }
             ]

@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kuhasunyeebaka/Documents/Projack_Wikanda/smartfarm_App-master-20181001T035416Z-001 2/smartfarm_App-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
+            "outputFile": "D:\\project_smartFarm\\smartfarm_app_v1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bs\\values-bs.xml",
             "map": [
                 {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/25191926f35bfa4951fb247023260913/res/values-bs/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,541,665,773,982,1106,1244,1371,1584,1689,1881,2006,2215,2387,2481,2572",
-                        "endColumns": "103,191,123,107,208,123,137,126,212,104,191,124,208,171,93,90,109",
-                        "endOffsets": "348,540,664,772,981,1105,1243,1370,1583,1688,1880,2005,2214,2386,2480,2571,2681"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1902,2010,2202,2330,2442,2651,2779,2921,3252,3465,3574,3766,3895,4104,4280,4378,4473",
-                        "endColumns": "107,191,127,111,208,127,141,130,212,108,191,128,208,175,97,94,113",
-                        "endOffsets": "2005,2197,2325,2437,2646,2774,2916,3047,3460,3569,3761,3890,4099,4275,4373,4468,4582"
-                    }
-                },
-                {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a5b2aa4f17ed1e5001ecbfcd58d646da/res/values-bs/values.xml",
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\90585d5557a2173ac870a56cf4f5ad4c\\res\\values-bs\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1a9ea1628a93fce37c52045d48b5f9d1/res/values-bs/values-bs.xml",
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\65375b586cf10c7693b834903ebf07ea\\res\\values-bs\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,541,665,773,982,1106,1244,1371,1584,1689,1881,2006,2215,2387,2481,2572",
+                        "endColumns": "103,191,123,107,208,123,137,126,212,104,191,124,208,171,93,90,109",
+                        "endOffsets": "348,540,664,772,981,1105,1243,1370,1583,1688,1880,2005,2214,2386,2480,2571,2681"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1902,2010,2202,2330,2442,2651,2779,2921,3252,3465,3574,3766,3895,4104,4280,4378,4473",
+                        "endColumns": "107,191,127,111,208,127,141,130,212,108,191,128,208,175,97,94,113",
+                        "endOffsets": "2005,2197,2325,2437,2646,2774,2916,3047,3460,3569,3761,3890,4099,4275,4373,4468,4582"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\1a7598dbeddd5b4e2a44083164f09c0f\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kuhasunyeebaka/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c8d1a19ed485a60c9a01254a2ae2de4a/res/values-bs/values-bs.xml",
+                    "source": "C:\\Users\\kuhas\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e4b4db72ea35f5ebebcd3d595786c35a\\res\\values-bs\\values-bs.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

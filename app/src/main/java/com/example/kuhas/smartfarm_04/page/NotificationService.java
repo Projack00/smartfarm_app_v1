@@ -65,28 +65,34 @@ public class NotificationService extends Service {
     };
 
     private void showNotificationAlert() {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            NotificationChannel channel = new NotificationChannel("default", "YOUR_CHANNEL_NAME",
+                    NotificationManager.IMPORTANCE_DEFAULT);
+            channel.setDescription("YOUR_NOTIFICATION_CHANNEL_DISCRIPTION");
+            NotificationManager notificationManager = getSystemService(NotificationManager.class);
+            notificationManager.createNotificationChannel(channel);
+        }
 
         NotificationManagerCompat mNotificationManager = NotificationManagerCompat.from(this);
 // Check Version Android
 
-        NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(getApplicationContext(), "default")
-                .setSmallIcon(R.mipmap.ic_launcher) // notification icon
-                .setContentTitle(time) // title for notification
-                .setSound(Uri.EMPTY)
-                .setVibrate(null)
-                .setContentText(equipment)// message for notification
-                .setAutoCancel(true); // clear notification after click
+            NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(getApplicationContext(), "default")
+                    .setSmallIcon(R.mipmap.ic_launcher) // notification icon
+                    .setContentTitle(time) // title for notification
+                    .setSound(Uri.EMPTY)
+                    .setVibrate(null)
+                    .setContentText(equipment)// message for notification
+                    .setAutoCancel(true); // clear notification after click
 
-        Intent intent = new Intent(getApplicationContext(), AlertNotification.class);
-        intent.putExtra("time", time);
-        intent.putExtra("equipment", equipment);
-        intent.putExtra("alarm_Value_count", alarm_Value_count);
-        PendingIntent pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-        mBuilder.setContentIntent(pi);
-        mNotificationManager.notify(0, mBuilder.build());
+            Intent intent = new Intent(getApplicationContext(), AlertNotification.class);
+            intent.putExtra("time", time);
+            intent.putExtra("equipment", equipment);
+            intent.putExtra("alarm_Value_count", alarm_Value_count);
+            PendingIntent pi = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+            mBuilder.setContentIntent(pi);
+            mNotificationManager.notify(0, mBuilder.build());
 
-//        mTime.cancel();
-//        timerTask.cancel();
+
     }
 
     public void refreshData() {
