@@ -125,7 +125,6 @@
                 <TextView
                     android:background="@drawable/bg_temp"
                     android:layout_gravity="center_horizontal"
-
                     android:textSize="28sp"
                     android:layout_width="70dp"
                     android:layout_height="50dp" />
