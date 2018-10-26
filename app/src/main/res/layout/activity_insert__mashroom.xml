@@ -175,6 +175,7 @@
                         android:textColor="#FFFFFF"
                         android:textSize="15dp" />
 
+
                     <Spinner
                         android:id="@+id/Humid_Min"
                         android:layout_width="wrap_content"

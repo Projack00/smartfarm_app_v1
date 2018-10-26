@@ -22,6 +22,7 @@
             android:textColor="#FFFFFF"
             android:textSize="30dp" />
 
+
         <EditText
             android:id="@+id/Edit_Name_Mashroom"
             android:layout_width="match_parent"
@@ -124,11 +125,11 @@
                 </LinearLayout>
 
                 <TextView
-                    android:background="@drawable/bg_temp"
-                    android:layout_gravity="center_horizontal"
-                    android:textSize="28sp"
                     android:layout_width="70dp"
-                    android:layout_height="50dp" />
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_temp"
+                    android:textSize="28sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -183,12 +184,13 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"></Spinner>
                 </LinearLayout>
+
                 <TextView
-                    android:background="@drawable/bg_humidity"
-                    android:layout_gravity="center_horizontal"
-                    android:textSize="28sp"
                     android:layout_width="70dp"
-                    android:layout_height="50dp" />
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/bg_humidity"
+                    android:textSize="28sp" />
             </LinearLayout>
 
         </LinearLayout>
