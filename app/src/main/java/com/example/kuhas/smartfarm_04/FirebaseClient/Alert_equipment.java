@@ -43,9 +43,9 @@ public class Alert_equipment {
                 String s2 = dataSnapshot.child("time").getValue().toString();
 
 
-                alarm_Value_count_Text.setText("จำนวนครั้งเริ่มทำงานผิดพลาด " + s);
-                equipment_Text.setText("อุปกรณ์ " + s1);
-                time_Text.setText("วัน/เวลาที่ทำงานผิดพลาดครั้งล่าสุด \n" + s2);
+                alarm_Value_count_Text.setText(" " + s);
+                equipment_Text.setText(" " + s1);
+                time_Text.setText(" " + s2);
             }
 
             @Override

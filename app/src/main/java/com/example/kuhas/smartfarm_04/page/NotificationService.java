@@ -117,11 +117,11 @@ public class NotificationService extends Service {
 
     @Override
     public void onDestroy() {
-        Toast.makeText(this, "Service Destroyed", Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "Service Destroyed", Toast.LENGTH_LONG).show();
 
         try {
-            mTime.cancel();
-            timerTask.cancel();
+//            mTime.cancel();
+//            timerTask.cancel();
 
         } catch (Exception e) {
             e.printStackTrace();
