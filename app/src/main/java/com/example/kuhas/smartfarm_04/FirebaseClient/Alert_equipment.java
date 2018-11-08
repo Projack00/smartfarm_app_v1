@@ -37,9 +37,15 @@ public class Alert_equipment {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                alarm_Value_count_Text.setText(dataSnapshot.child("alarm_Value_count").getValue().toString());
-                equipment_Text.setText(dataSnapshot.child("equipment").getValue().toString());
-                time_Text.setText(dataSnapshot.child("time").getValue().toString());
+
+                String s = dataSnapshot.child("alarm_Value_count").getValue().toString();
+                String s1 = dataSnapshot.child("equipment").getValue().toString();
+                String s2 = dataSnapshot.child("time").getValue().toString();
+
+
+                alarm_Value_count_Text.setText("จำนวนครั้งเริ่มทำงานผิดพลาด " + s);
+                equipment_Text.setText("อุปกรณ์ " + s1);
+                time_Text.setText("วัน/เวลาที่ทำงานผิดพลาดครั้งล่าสุด \n" + s2);
             }
 
             @Override

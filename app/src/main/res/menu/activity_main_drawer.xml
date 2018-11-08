@@ -8,7 +8,7 @@
             android:id="@+id/nav_camera"
             android:fontFamily="@font/supermarket"
             android:icon="@drawable/ins"
-            android:title="เพิ่มข้อมูล" />
+            android:title="@string/insert_Mushroom" />
         <!--<item-->
         <!--android:id="@+id/nav_gallery"-->
         <!--android:icon="@drawable/ic_menu_gallery"-->
@@ -17,17 +17,17 @@
             android:id="@+id/graph"
             android:fontFamily="@font/supermarket"
             android:icon="@drawable/graph"
-            android:title="กราฟ" />
+            android:title="@string/graphdetail" />
         <item
             android:id="@+id/nav_manage"
             android:fontFamily="@font/supermarket"
             android:icon="@drawable/edit"
-            android:title="จัดการข้อมูล" />
+            android:title="@string/jadkanhad" />
         <item
             android:id="@+id/notification"
             android:fontFamily="@font/supermarket"
             android:icon="@drawable/ic_notifications_active_black_24dp"
-            android:title="แจ้งเตือน" />
+            android:title="@string/noti_warning" />
     </group>
 
 </menu>

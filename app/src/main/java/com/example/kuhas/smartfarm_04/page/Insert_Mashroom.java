@@ -49,7 +49,7 @@ public class Insert_Mashroom extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_insert__mashroom);
 
-        getSupportActionBar().setTitle("เพื่มชนิดของเห็ด");
+        getSupportActionBar().setTitle("เพื่มข้อมูลเห็ด");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 

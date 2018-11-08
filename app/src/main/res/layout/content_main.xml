@@ -113,7 +113,7 @@
                             android:layout_below="@id/humidIMG"
                             android:fontFamily="@font/supermarket"
                             android:gravity="center"
-                            android:text="==-=="
+                            android:text="===="
                             android:textColor="#FFFFFF"
                             android:textSize="50sp"
                             android:textStyle="bold" />

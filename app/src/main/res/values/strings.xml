@@ -7,4 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="contact_delete">แจ้งเตือน</string>
+    <string name="insert_Mushroom">เพื่มข้อมูลเห็ด</string>
+    <string name="jadkanhad">จัดการข้อมูลเห็ด</string>
+    <string name="graphdetail">แสดงผลกราฟ</string>
+    <string name="noti_warning">แจ้งเตือนการทำงานผิดพลาด</string>
 </resources>
