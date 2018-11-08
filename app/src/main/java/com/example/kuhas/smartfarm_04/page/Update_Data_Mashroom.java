@@ -61,8 +61,8 @@ public class Update_Data_Mashroom extends AppCompatActivity {
 //==================================================================================================
         spin_temp_min = findViewById(R.id.Tem_min);
         spin_temp_max = findViewById(R.id.Tem_Max);
-        spin_hum_max = findViewById(R.id.Humid_Min);
-        spin_hum_min = findViewById(R.id.Humid_max);
+        spin_hum_min = findViewById(R.id.Humid_Min);
+        spin_hum_max = findViewById(R.id.Humid_max);
         editMode = findViewById(R.id.Edit_Name_Mashroom);
         Insert = (Button) findViewById(R.id.Insert_Name);
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

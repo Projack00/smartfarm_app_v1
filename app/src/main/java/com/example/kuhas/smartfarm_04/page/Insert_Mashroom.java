@@ -49,7 +49,7 @@ public class Insert_Mashroom extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_insert__mashroom);
 
-        getSupportActionBar().setTitle("เพื่มข้อมูลเห็ด");
+        getSupportActionBar().setTitle("เพิ่มข้อมูลเห็ด");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
@@ -61,8 +61,8 @@ public class Insert_Mashroom extends AppCompatActivity {
 //==================================================================================================
         spin_temp_min = findViewById(R.id.Tem_min);
         spin_temp_max = findViewById(R.id.Tem_Max);
-        spin_hum_max = findViewById(R.id.Humid_Min);
-        spin_hum_min = findViewById(R.id.Humid_max);
+        spin_hum_min = findViewById(R.id.Humid_Min);
+        spin_hum_max = findViewById(R.id.Humid_max);
         editMode = findViewById(R.id.Edit_Name_Mashroom);
         Insert = (Button) findViewById(R.id.Insert_Name);
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -88,7 +88,7 @@ public class Insert_Mashroom extends AppCompatActivity {
         btn_OK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Delete == ok", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "เพิ่มข้อมูลสำเร็จ", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(Insert_Mashroom.this,MainActivity.class);
                 startActivity(intent);
@@ -99,7 +99,7 @@ public class Insert_Mashroom extends AppCompatActivity {
         btn_Cancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Cancell == ok", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "ยกเลิกรายการแล้ว", Toast.LENGTH_SHORT).show();
                 myDialog.dismiss();
 
             }
